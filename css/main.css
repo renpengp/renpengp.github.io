@@ -2061,7 +2061,7 @@ img:hover {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ac1a3b;
+  background: #b4adc2;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3227,7 +3227,7 @@ img:hover {
   border-radius: initial;
 }
 .post-block {
-  background: rgba(255,255,255,0.99) none repeat scroll !important;
+  background: rgba(255,255,255,0) none repeat scroll !important;
 }
 #posts > article + article .post-block {
   margin-top: 12px;
@@ -3241,6 +3241,9 @@ img:hover {
   background: #fff;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12), 0 -1px 0.5px 0 rgba(0,0,0,0.09);
   border-radius: initial;
+}
+.comments {
+  background: rgba(255,255,255,0) none repeat scroll !important;
 }
 .posts-expand {
   padding-top: initial;
